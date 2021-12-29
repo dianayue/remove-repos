@@ -1,4 +1,6 @@
-### 应用创景
+# 批量删除 GitHub 仓库
+
+### 应用场景
 
 无意间创建的 demo 仓库太多
 
@@ -17,7 +19,7 @@ cd remove-repos
 
 #### 创建 token
 
-1. 创建 token 位置： github.com -> 点击头像 -> Settings -> Developer settings -> Personal access tokens [点击创建 token](https://github.com/settings/tokens)
+1. [创建 token](https://github.com/settings/tokens)： github -> 点击头像 -> Settings -> Developer settings -> Personal access tokens
 2. 点击 Generate new token，并输入密码
 3. Note 处输入标记这个 token 是做什么的名字，比如：DELETE_TOKEN
 4. 往下滑动找到 `delete_repo` 勾选
@@ -43,4 +45,10 @@ repName2
 
 ```shell
 ./remove-github-repos.sh
+```
+
+### python 方式
+
+```shell
+./remove-github-repos.py
 ```
