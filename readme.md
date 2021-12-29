@@ -27,7 +27,7 @@ cd remove-repos
 
 #### 编辑 remove-github-repos.sh
 
-将 DELETE_KOKEN 和 GithubName 都替换为自己的参数
+将 ORG 和 TOKEN 替换待删除仓库的组织名和 Token
 
 #### 将要删除的仓库名称添加到 repos.txt 文件中
 
@@ -50,5 +50,5 @@ repName2
 ### python 方式
 
 ```shell
-./remove-github-repos.py
+python remove-github-repos.py
 ```
